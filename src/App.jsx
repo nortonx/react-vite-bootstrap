@@ -1,17 +1,36 @@
-import './scss/styles.scss'
+import './scss/styles.scss';
 import * as bootstrap from 'bootstrap'
+import { createBrowserRouter, RouterProvider } from 'react-router-dom'
+import MainLayout from './layouts/MainLayout';
+import NotFound from './components/NotFound.jsx'
+import Home from './routes/Home';
+import About from './routes/About';
+
+const router = createBrowserRouter([
+  {
+    path: "/",
+    element: <MainLayout />,
+    errorElement: <NotFound />,
+    children: [
+      {
+        path: "/",
+        element: <Home />
+      },
+      {
+        path: "/about",
+        element: <About />
+      }
+    ]
+  }
+])
 
 function App() {
 
   return (
     <>
-      <div className="container py-4 px-3 mx-auto">
-        <h1>Hello, bootstrap and Vite</h1>
-        <button className="btn btn-primary">Primary Button</button>
-        {bootstrap.Button}
-      </div>
+      <RouterProvider router={router} />
     </>
   )
 }
 
-export default App
+export default App;
