@@ -1,8 +1,8 @@
 import React from "react";
-
+import "../scss/Home.scss";
 const Home = () => {
   return(
-    <div className="container">Home</div>
+    <div className="container home">Home</div>
   )
 }
 
