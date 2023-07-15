@@ -3,9 +3,11 @@
 exports[`App Should render and match snapshot 1`] = `
 <div
   className="container py-4 px-3 mx-auto"
+  data-testid="main-layout"
 >
   <div
     className="container header"
+    data-testid="header"
   >
     <header
       className="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom"
@@ -51,10 +53,13 @@ exports[`App Should render and match snapshot 1`] = `
     className="container home"
     data-testid="home"
   >
-    Home
+    <h1>
+      This is the Home content
+    </h1>
   </div>
   <div
     className="container footer"
+    data-testid="footer"
   >
     <footer
       className="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top"
