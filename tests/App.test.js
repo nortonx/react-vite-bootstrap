@@ -1,17 +1,14 @@
 import { render, screen } from "@testing-library/react";
 import renderer from "react-test-renderer";
+import { BrowserRouter } from "react-router-dom";
 
 import App from "../src/App";
 
 describe("App", () => {
   it("Renders App component", async () => {
-    render(<App />)
-    const homeElement = await screen.findByTestId("home");
-    expect(homeElement).toBeInTheDocument();
-  });
-
-  it("Should render and match snapshot", () => {
-    const element = renderer.create(<App />);
+    render(<App />, {wrapper: BrowserRouter})
+    const element = await screen.findByTestId("main-layout");
+    expect(element).toBeInTheDocument();
     expect(element).toMatchSnapshot();
-  })
+  });
 })

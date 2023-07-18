@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Home route Should render and match snapshot 1`] = `
+exports[`Home route Should render the component and match snapshot 1`] = `
 <div
   className="container home"
   data-testid="home"
