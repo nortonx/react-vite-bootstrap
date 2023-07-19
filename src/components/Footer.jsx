@@ -13,6 +13,9 @@ const Footer = () => {
           <Link to="/" className="text-muted">Home</Link>
           </li>
           <li className="ms-3">
+            <Link to="/form" className="text-muted">Form</Link>
+          </li>
+          <li className="ms-3">
             <Link to="/about" className="text-muted">About</Link>
           </li>
         </ul>
