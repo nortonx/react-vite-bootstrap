@@ -5,7 +5,7 @@ const Button = ({label, onClick, buttonType}) => {
   return(
     <>
       <button
-        className={`btn btn-primary btn-${buttonType}`}
+        className={`btn btn-${buttonType ? buttonType : 'primary'}`}
         onClick={onClick}
       >{label}</button>
     </>
