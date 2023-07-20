@@ -1,7 +1,7 @@
 import './scss/styles.scss';
-import { Routes, Route } from 'react-router-dom'
+import { Routes, Route } from 'react-router-dom';
 import MainLayout from './layouts/MainLayout';
-import NotFound from './components/NotFound.jsx'
+import NotFound from './components/NotFound.jsx';
 import Home from './routes/Home';
 import Form from "./routes/Form";
 import About from './routes/About';
@@ -17,7 +17,7 @@ function App() {
         <Route path="*" element={<NotFound />} />
       </Route>
     </Routes>
-  )
+  );
 }
 
 export default App;

@@ -13,11 +13,12 @@ const Input = ({label, type, value, onChange, readOnly, placeholder, required}) 
           required={required}
           readOnly={readOnly}
           onChange={onChange}
+          data-testid="input"
         />
       </div>
     </>
-  )
-}
+  );
+};
 
 Input.propTypes = {
   label: PropTypes.string,
@@ -27,6 +28,6 @@ Input.propTypes = {
   readOnly: PropTypes.bool,
   placeholder: PropTypes.string,
   required: PropTypes.bool,
-}
+};
 
 export default Input;

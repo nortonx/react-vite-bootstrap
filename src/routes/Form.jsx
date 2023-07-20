@@ -3,7 +3,7 @@ import "../scss/Form.scss";
 import Input from "../components/Input";
 import Button from "../components/Button";
 const Form = () => {
-  const [email, setEmail] = useState("")
+  const [email, setEmail] = useState("");
   return(
     <div className="container form" data-testid="form">
       <div className="row">
@@ -21,7 +21,7 @@ const Form = () => {
         </div>
       </div>
     </div>
-  )
-}
+  );
+};
 
 export default Form;
