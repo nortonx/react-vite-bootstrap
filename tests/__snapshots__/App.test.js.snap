@@ -1,7 +1,7 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`App Renders App component 1`] = `
-<div
+<main
   class="container py-4 px-3 mx-auto"
   data-testid="main-layout"
 >
@@ -31,6 +31,17 @@ exports[`App Renders App component 1`] = `
             href="/"
           >
             Home
+          </a>
+        </li>
+        <li
+          class="nav-item"
+        >
+          <a
+            activeclassname="active"
+            class="nav-link"
+            href="/form"
+          >
+            Form
           </a>
         </li>
         <li
@@ -96,6 +107,16 @@ exports[`App Renders App component 1`] = `
         >
           <a
             class="text-muted"
+            href="/form"
+          >
+            Form
+          </a>
+        </li>
+        <li
+          class="ms-3"
+        >
+          <a
+            class="text-muted"
             href="/about"
           >
             About
@@ -104,5 +125,5 @@ exports[`App Renders App component 1`] = `
       </ul>
     </footer>
   </div>
-</div>
+</main>
 `;
