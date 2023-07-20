@@ -9,14 +9,15 @@ const Form = () => {
       <div className="row">
         <div className="col-md-6">
           <Input
+            id="userEmail"
             label="E-mail:"
             type="email"
             value={email}
+            className="mb-3"
             onChange={(e) => setEmail(e.target.value)}
           />
           <Button
-            label="Testing button"
-            
+            text="Testing button"
           />
         </div>
       </div>

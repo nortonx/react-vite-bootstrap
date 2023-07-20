@@ -2,7 +2,7 @@
 
 exports[`Input Should render and match snapshot 1`] = `
 <input
-  class="form-control input"
+  class="form-control input "
   data-testid="input"
   value=""
 />
