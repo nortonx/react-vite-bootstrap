@@ -4,7 +4,7 @@ import Footer from "../components/Footer";
 
 const MainLayout = () => {
   return(
-    <main className="container py-4 px-3 mx-auto" data-testid="main-layout">
+    <main className="container py-4 px-3 mx-auto main-layout" data-testid="main-layout">
       <Header />
         <Outlet />
       <Footer />

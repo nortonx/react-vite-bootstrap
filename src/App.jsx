@@ -5,6 +5,7 @@ import NotFound from './components/NotFound.jsx';
 import Home from './routes/Home';
 import Form from "./routes/Form";
 import About from './routes/About';
+import TextAnalyzer from './routes/TextAnalyzer';
 
 
 function App() {
@@ -13,6 +14,7 @@ function App() {
       <Route path="/" element={<MainLayout />}>
         <Route index element={<Home />} />
         <Route path="form" element={<Form />} />
+        <Route path="text-analyzer" element={<TextAnalyzer />} />
         <Route path="about" element={<About />} />
         <Route path="*" element={<NotFound />} />
       </Route>

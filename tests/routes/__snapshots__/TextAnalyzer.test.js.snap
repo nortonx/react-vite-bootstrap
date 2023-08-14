@@ -1,0 +1,10 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TextAnalyzer route Should render the component and match snapshot 1`] = `
+<div
+  className="container text-analyzer"
+  data-testid="text-analyzer"
+>
+  Text analyzer content
+</div>
+`;
