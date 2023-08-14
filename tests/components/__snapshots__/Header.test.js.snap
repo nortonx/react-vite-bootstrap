@@ -46,6 +46,17 @@ exports[`Header should render the component and match snapshot 1`] = `
         <a
           activeclassname="active"
           class="nav-link"
+          href="/text-analyzer"
+        >
+          Text Analyzer
+        </a>
+      </li>
+      <li
+        class="nav-item"
+      >
+        <a
+          activeclassname="active"
+          class="nav-link"
           href="/about"
         >
           About
