@@ -1,8 +1,9 @@
 import "../scss/TextAnalyzer.scss";
+import Analyzer from "../components/text-analyzer/Analyzer";
 const TextAnalyzer = () => {
   return(
     <div className="container text-analyzer" data-testid="text-analyzer">
-      Text analyzer content
+      <Analyzer />
     </div>
   );
 };

@@ -5,6 +5,98 @@ exports[`TextAnalyzer route Should render the component and match snapshot 1`] =
   className="container text-analyzer"
   data-testid="text-analyzer"
 >
-  Text analyzer content
+  <div
+    className="container text-analyzer"
+    data-testid="analyzer"
+  >
+    <div
+      className="col"
+    >
+      <div
+        className="row"
+      >
+        <div
+          className="col"
+          data-testid="counter"
+        >
+          <h1
+            className="m-2 text-center"
+          >
+            Words
+          </h1>
+          <h2
+            className="text-center text-body-secondary"
+          >
+            0
+          </h2>
+        </div>
+        <div
+          className="col"
+          data-testid="counter"
+        >
+          <h1
+            className="m-2 text-center"
+          >
+            Characters
+          </h1>
+          <h2
+            className="text-center text-body-secondary"
+          >
+            0
+          </h2>
+        </div>
+        <div
+          className="col"
+          data-testid="counter"
+        >
+          <h1
+            className="m-2 text-center"
+          >
+            Sentences
+          </h1>
+          <h2
+            className="text-center text-body-secondary"
+          >
+            0
+          </h2>
+        </div>
+        <div
+          className="col"
+          data-testid="counter"
+        >
+          <h1
+            className="m-2 text-center"
+          >
+            Paragraphs
+          </h1>
+          <h2
+            className="text-center text-body-secondary"
+          >
+            0
+          </h2>
+        </div>
+      </div>
+      <div
+        className="row"
+      >
+        <div
+          className="textarea mb-3"
+          data-testid="textarea"
+        >
+          <label
+            className="form-label"
+            htmlFor="text-analyzer"
+          >
+            Type in your text
+          </label>
+          <textarea
+            className="form-control"
+            id="text-analyzer"
+            onChange={[Function]}
+          />
+        </div>
+      </div>
+    </div>
+  </div>
 </div>
 `;

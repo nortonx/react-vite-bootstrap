@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Counter Should render component and match snapshot 1`] = `
+<div
+  class="col"
+  data-testid="counter"
+>
+  <h1
+    class="m-2 text-center"
+  />
+  <h2
+    class="text-center text-body-secondary"
+  />
+</div>
+`;
