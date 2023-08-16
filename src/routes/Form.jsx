@@ -20,6 +20,9 @@ const Form = () => {
             text="Testing button"
           />
         </div>
+        <div className="col-md-6">
+          content: <code>{email}</code>
+        </div>
       </div>
     </div>
   );

@@ -1,0 +1,46 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Form route Should render the component and update snapshot 1`] = `
+<div
+  className="container form"
+  data-testid="form"
+>
+  <div
+    className="row"
+  >
+    <div
+      className="col-md-6"
+    >
+      <code />
+    </div>
+    <div
+      className="col-md-6"
+    >
+      <div
+        className="col-sm-6"
+      >
+        <label
+          className="form-label"
+          htmlFor="userEmail"
+        >
+          E-mail:
+        </label>
+        <input
+          className="form-control input mb-3"
+          data-testid="input"
+          id="userEmail"
+          onChange={[Function]}
+          type="email"
+          value=""
+        />
+      </div>
+      <button
+        className="btn btn-primary"
+        data-testid="button"
+      >
+        Testing button
+      </button>
+    </div>
+  </div>
+</div>
+`;
