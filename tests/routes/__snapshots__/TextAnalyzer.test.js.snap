@@ -81,7 +81,6 @@ exports[`TextAnalyzer route Should render the component and match snapshot 1`] =
       >
         <div
           className="textarea mb-3"
-          data-testid="textarea"
         >
           <label
             className="form-label"
@@ -91,6 +90,7 @@ exports[`TextAnalyzer route Should render the component and match snapshot 1`] =
           </label>
           <textarea
             className="form-control"
+            data-testid="textarea"
             id="text-analyzer"
             onChange={[Function]}
           />
