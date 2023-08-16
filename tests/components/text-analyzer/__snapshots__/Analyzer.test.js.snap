@@ -77,7 +77,6 @@ exports[`Analyzer Should render component and match snapshot 1`] = `
     >
       <div
         class="textarea mb-3"
-        data-testid="textarea"
       >
         <label
           class="form-label"
@@ -87,6 +86,7 @@ exports[`Analyzer Should render component and match snapshot 1`] = `
         </label>
         <textarea
           class="form-control"
+          data-testid="textarea"
           id="text-analyzer"
         />
       </div>
