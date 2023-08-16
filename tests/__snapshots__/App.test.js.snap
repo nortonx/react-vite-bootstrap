@@ -1,0 +1,140 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App Renders App component 1`] = `
+<main
+  class="container py-4 px-3 mx-auto main-layout"
+  data-testid="main-layout"
+>
+  <div
+    class="container header"
+    data-testid="header"
+  >
+    <header
+      class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom"
+    >
+      <a
+        class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-dark text-decoration-none"
+        href="/"
+      >
+        Brand
+      </a>
+      <ul
+        class="nav nav-pills"
+      >
+        <li
+          class="nav-item"
+        >
+          <a
+            activeclassname="active"
+            aria-current="page"
+            class="nav-link active"
+            href="/"
+          >
+            Home
+          </a>
+        </li>
+        <li
+          class="nav-item"
+        >
+          <a
+            activeclassname="active"
+            class="nav-link"
+            href="/form"
+          >
+            Form
+          </a>
+        </li>
+        <li
+          class="nav-item"
+        >
+          <a
+            activeclassname="active"
+            class="nav-link"
+            href="/text-analyzer"
+          >
+            Text Analyzer
+          </a>
+        </li>
+        <li
+          class="nav-item"
+        >
+          <a
+            activeclassname="active"
+            class="nav-link"
+            href="/about"
+          >
+            About
+          </a>
+        </li>
+      </ul>
+    </header>
+  </div>
+  <div
+    class="container home"
+    data-testid="home"
+  >
+    <h1>
+      This is the Home content
+    </h1>
+  </div>
+  <div
+    class="container footer"
+    data-testid="footer"
+  >
+    <footer
+      class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top"
+    >
+      <div
+        class="col-md-4 d-flex align-items-center"
+      >
+        <a
+          class="mb-3 me-2 mb-md-0 text-muted text-decoration-none lh-1"
+          href="/"
+        >
+          Logo
+        </a>
+        <span
+          class="mb-3 mb-md-0 text-muted"
+        >
+          2023
+           ©
+        </span>
+      </div>
+      <ul
+        class="nav col-md-4 justify-content-end list-unstyled d-flex"
+      >
+        <li
+          class="ms-3"
+        >
+          <a
+            class="text-muted"
+            href="/"
+          >
+            Home
+          </a>
+        </li>
+        <li
+          class="ms-3"
+        >
+          <a
+            class="text-muted"
+            href="/form"
+          >
+            Form
+          </a>
+        </li>
+        <li
+          class="ms-3"
+        >
+          <a
+            class="text-muted"
+            href="/about"
+          >
+            About
+          </a>
+        </li>
+      </ul>
+    </footer>
+  </div>
+</main>
+`;

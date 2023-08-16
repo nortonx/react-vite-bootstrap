@@ -1,0 +1,12 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`About route Should render the component and update snapshot 1`] = `
+<div
+  className="container about"
+  data-testid="about"
+>
+  <h1>
+    This is the About content
+  </h1>
+</div>
+`;

@@ -1,0 +1,96 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Analyzer Should render component and match snapshot 1`] = `
+<div
+  class="container text-analyzer"
+  data-testid="analyzer"
+>
+  <div
+    class="col"
+  >
+    <div
+      class="row"
+    >
+      <div
+        class="col"
+        data-testid="counter"
+      >
+        <h1
+          class="m-2 text-center"
+        >
+          Words
+        </h1>
+        <h2
+          class="text-center text-body-secondary"
+        >
+          0
+        </h2>
+      </div>
+      <div
+        class="col"
+        data-testid="counter"
+      >
+        <h1
+          class="m-2 text-center"
+        >
+          Characters
+        </h1>
+        <h2
+          class="text-center text-body-secondary"
+        >
+          0
+        </h2>
+      </div>
+      <div
+        class="col"
+        data-testid="counter"
+      >
+        <h1
+          class="m-2 text-center"
+        >
+          Sentences
+        </h1>
+        <h2
+          class="text-center text-body-secondary"
+        >
+          0
+        </h2>
+      </div>
+      <div
+        class="col"
+        data-testid="counter"
+      >
+        <h1
+          class="m-2 text-center"
+        >
+          Paragraphs
+        </h1>
+        <h2
+          class="text-center text-body-secondary"
+        >
+          0
+        </h2>
+      </div>
+    </div>
+    <div
+      class="row"
+    >
+      <div
+        class="textarea mb-3"
+      >
+        <label
+          class="form-label"
+          for="text-analyzer"
+        >
+          Type in your text
+        </label>
+        <textarea
+          class="form-control"
+          data-testid="textarea"
+          id="text-analyzer"
+        />
+      </div>
+    </div>
+  </div>
+</div>
+`;
